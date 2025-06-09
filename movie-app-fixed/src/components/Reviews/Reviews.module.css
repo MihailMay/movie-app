@@ -1,0 +1,25 @@
+.container {
+  padding: 20px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.item a:hover {
+  color: #0066cc;
+}

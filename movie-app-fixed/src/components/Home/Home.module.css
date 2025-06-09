@@ -1,0 +1,27 @@
+.container {
+  padding: 20px;
+}
+
+.moviesList {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.movieItem {
+  background: #f8f8f8;
+  border-radius: 8px;
+  padding: 10px;
+  transition: transform 0.2s;
+}
+
+.movieItem:hover {
+  transform: scale(1.05);
+}
+
+.movieLink {
+  text-decoration: none;
+  color: #333;
+}
